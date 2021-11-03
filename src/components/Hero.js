@@ -1,4 +1,3 @@
-import "holderjs";
 import { Row, Container, Image, Col } from "react-bootstrap";
 import headshot from "../assets/headshot.jpg";
 
