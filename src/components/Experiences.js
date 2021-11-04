@@ -9,6 +9,9 @@ export default function Experiences() {
             {experienceData.map((experience) => {
                 return (
                     <ExperienceCard
+                        cardLogo={
+                            require("../assets/" + experience.logo).default
+                        }
                         cardTitle={experience.company}
                         cardText={experience.description}
                     />
