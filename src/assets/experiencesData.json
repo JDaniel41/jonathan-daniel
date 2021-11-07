@@ -2,16 +2,19 @@
     {
         "logo": "clemsonLogo.png",
         "company": "Clemson Energy Visualization and Analytics Center",
+        "position": "CEVAC Intern",
         "description": "In Spring 20201, I worked for the Clemson Energy Visualization and Analytics Center as a UPIC intern."
     },
     {
         "logo": "metaLogo.png",
         "company": "Meta, Inc.",
-        "description": "In Fall 2021, I worked for Meta as a Software Engineering Intern on the Android Video Playback team. As an intern, my projects involded tuning values for initial buffering, refactoring a stall monitor in Kotlin used to trigger dynamic rebuffering, and I developed a UI to indicate to users when a live broadcat was interrupted due to poor network connections. I loved the opportunity to experiment and work on new features, as well as the support from my teamates even though they were multiple timezones away."
+        "position": "Software Engineering Intern",
+        "description": "In Fall 2021, I worked for Meta as a Software Engineering Intern on the Android Video Playback team. As an intern, my projects involded tuning values for initial buffering, refactoring a stall monitor in Kotlin used to trigger dynamic rebuffering, and I developed a UI to indicate to users when a live broadcat was interrupted due to poor network connections. I loved the opportunity to experiment and work on new features, as well as the support from my teamates even though they were multiple positionzones away."
     },
     {
         "logo": "sfLogo.png",
         "company": "State Farm",
+        "position": "Technology Intern",
         "description": "In Summer 2021, I worked for State Farm as a Technology Intern on their Customer Data team. "
     }
 ]

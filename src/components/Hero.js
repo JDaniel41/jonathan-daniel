@@ -3,9 +3,12 @@ import headshot from "../assets/headshot.jpg";
 
 export default function Hero() {
     return (
-        <Container classname="mx-2">
-            <Row>
-                <Col xs={6} className="my-auto">
+        <Container className="m-0" fluid>
+            <Row
+                className="space-evenly"
+                style={{ justifyContent: "space-evenly" }}
+            >
+                <Col className="my-auto">
                     <h1>Hi, I'm Jonathan</h1>
                     <p>
                         I'm a Junior National Scholar studying Computer Science
@@ -18,8 +21,11 @@ export default function Hero() {
                         more unique solutions.
                     </p>
                 </Col>
-                <Col xs={4} className="mx-auto">
-                    <Image fluid src={headshot} />
+                <Col className="mx-auto text-center">
+                    <Image
+                        src={headshot}
+                        style={{ height: "500px", width: "auto" }}
+                    />
                 </Col>
             </Row>
         </Container>
