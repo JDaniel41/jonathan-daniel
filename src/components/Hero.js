@@ -1,33 +1,37 @@
-import { Row, Container, Image, Col } from "react-bootstrap";
+import { Row, Container, Image, Col, Stack, Button } from "react-bootstrap";
+import { SocialIcon } from "react-social-icons";
 import headshot from "../assets/headshot.jpg";
+import soccerPhoto from "../assets/soccerPhoto.jpg";
+import ParticlesDemo from "./ParticlesDemo";
+
+import "../styles/hero.css";
 
 export default function Hero() {
     return (
-        <Container className="m-0" fluid>
-            <Row
-                className="space-evenly"
-                style={{ justifyContent: "space-evenly" }}
-            >
-                <Col className="my-auto">
-                    <h1>Hi, I'm Jonathan</h1>
-                    <p>
-                        I'm a Junior National Scholar studying Computer Science
-                        at Clemson University. My passion for CS comes from my
-                        love of creating unique solutions. Whenever my friends
-                        ask me why I like coding, I tell them that to me, coding
-                        is just like creative writing. I love that I can use
-                        coding to create whatever I want, and as I learn more
-                        about this art form, I want to use it to create even
-                        more unique solutions.
-                    </p>
-                </Col>
-                <Col className="mx-auto text-center">
-                    <Image
-                        src={headshot}
-                        style={{ height: "500px", width: "auto" }}
+        <Stack className="vh-100 bg-primary">
+            <Stack className="d-flex align-items-center justify-content-center">
+                <h1 className="text-white display-1">Hi, I'm Jonathan</h1>
+                <h1 className="text-white">Future Software Engineer</h1>
+                <h1 className="text-white">
+                    Clemson University National Scholar
+                </h1>
+                <h1 className="text-white">Class of 2023</h1>
+
+                <Stack
+                    direction="horizontal"
+                    gap={3}
+                    className="d-flex align-items-center justify-content-center"
+                >
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/jonathandaniel23/"
+                        bgColor="#fff"
                     />
-                </Col>
-            </Row>
-        </Container>
+                    <SocialIcon
+                        url="https://github.com/JDaniel41/"
+                        bgColor="#fff"
+                    />
+                </Stack>
+            </Stack>
+        </Stack>
     );
 }

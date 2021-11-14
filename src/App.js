@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import TopNavBar from "./components/TopNavBar";
 import Hero from "./components/Hero";
 import Experiences from "./components/Experiences";
+import ParticlesDemo from "./components/ParticlesDemo";
+
 function App() {
     return (
         <div>
