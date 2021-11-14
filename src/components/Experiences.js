@@ -6,7 +6,7 @@ import experienceData from "../assets/experiencesData.json";
 
 export default function Experiences() {
     return (
-        <Row className="g-2">
+        <Row className="g-2 mx-3 d-flex justify-content-around align-items-around">
             {experienceData.map((experience) => {
                 return (
                     <ExperienceCard
