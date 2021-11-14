@@ -1,4 +1,4 @@
-import CardGroup from "react-bootstrap/CardGroup";
+import { Stack } from "react-bootstrap";
 import ExperienceCard from "./ExperienceCard";
 import Row from "react-bootstrap/Row";
 
@@ -6,19 +6,23 @@ import experienceData from "../assets/experiencesData.json";
 
 export default function Experiences() {
     return (
-        <Row className="g-2 mx-3 d-flex justify-content-around align-items-around">
-            {experienceData.map((experience) => {
-                return (
-                    <ExperienceCard
-                        cardLogo={
-                            require("../assets/" + experience.logo).default
-                        }
-                        cardTitle={experience.company}
-                        cardSubtitle={experience.position}
-                        cardText={experience.description}
-                    />
-                );
-            })}
-        </Row>
+        <Stack className="d-flex align-items-center">
+            <h2>Internship Experiences</h2>
+
+            <Row xs={3} className="m-3 ">
+                {experienceData.map((experience) => {
+                    return (
+                        <ExperienceCard
+                            cardLogo={
+                                require("../assets/" + experience.logo).default
+                            }
+                            cardTitle={experience.company}
+                            cardSubtitle={experience.position}
+                            cardText={experience.description}
+                        />
+                    );
+                })}
+            </Row>
+        </Stack>
     );
 }
