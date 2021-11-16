@@ -37,7 +37,7 @@ export default function ProjectCard({
                 <h3>{projectTitle}</h3>
                 <p className="text-center">{projectDescription}</p>
                 <Button variant="primary" href={projectUrl}>
-                    Primary
+                    Check it out!
                 </Button>
             </Stack>
         </Stack>
