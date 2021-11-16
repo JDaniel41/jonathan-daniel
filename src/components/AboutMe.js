@@ -1,5 +1,5 @@
 import { Stack, Image } from "react-bootstrap";
-import headshot from "../assets/headshot.jpg";
+import headshot from "../img/headshot.jpg";
 
 export default function AboutMe() {
     return (

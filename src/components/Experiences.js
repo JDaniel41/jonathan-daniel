@@ -14,7 +14,7 @@ export default function Experiences() {
                     return (
                         <ExperienceCard
                             cardLogo={
-                                require("../assets/" + experience.logo).default
+                                require("../img/" + experience.logo).default
                             }
                             cardTitle={experience.company}
                             cardSubtitle={experience.position}

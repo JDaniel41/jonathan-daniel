@@ -1,7 +1,5 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
-import Ratio from "react-bootstrap/Ratio";
-import holderjs from "holderjs";
 
 export default function ExperienceCard({
     cardLogo,

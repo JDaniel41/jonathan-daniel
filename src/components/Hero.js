@@ -1,8 +1,5 @@
-import { Row, Container, Image, Col, Stack, Button } from "react-bootstrap";
+import { Stack } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
-import headshot from "../assets/headshot.jpg";
-import soccerPhoto from "../assets/soccerPhoto.jpg";
-import ParticlesDemo from "./ParticlesDemo";
 
 import "../styles/hero.css";
 

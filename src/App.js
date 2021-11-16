@@ -4,7 +4,6 @@ import Hero from "./components/Hero";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
-import ParticlesDemo from "./components/ParticlesDemo";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
