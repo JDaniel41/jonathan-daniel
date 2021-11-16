@@ -1,8 +1,14 @@
 [
     {
-        "name": "UniSpaces",
+        "title": "UniSpaces",
         "description": "For HackGT 2021, I worked on the backend of UniSpaces, a web app that allows college students to provide live updates of buildings and parking lots on their campuses. Based on the responses, one can also see the most recently reported status for an area, as well as recent trends for that area. \nIn this project, I mainly worked on the backend for our web app, consisting of a MongoDB database and Express.js API. ",
         "image": "unispacesScreenshot.png",
         "url": "https://hackgt-unispaces.herokuapp.com/"
+    },
+    {
+        "title": "COVID Dashboard",
+        "description": "For Trace Camp 2021, I developed a dashboard that uses data from the COVID Risk Assesment API to inform users of COVID spread in any county in the United States. This web app was my first project developed with React.js.",
+        "image": "covidDashboardScreenshot.png",
+        "url": "https://jdaniel41.github.io/trace-project/"
     }
 ]

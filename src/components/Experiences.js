@@ -2,12 +2,12 @@ import { Stack } from "react-bootstrap";
 import ExperienceCard from "./ExperienceCard";
 import Row from "react-bootstrap/Row";
 
-import experienceData from "../assets/experiencesData.json";
+import experienceData from "../data/experiencesData.json";
 
 export default function Experiences() {
     return (
         <Stack className="d-flex align-items-center">
-            <h2>Internship Experiences</h2>
+            <h1>Internship Experiences</h1>
 
             <Row xs={1} md={2} lg={3} className="m-3 ">
                 {experienceData.map((experience) => {

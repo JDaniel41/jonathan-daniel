@@ -6,7 +6,8 @@ import projectData from "../data/projectsData.json";
 export default function Projects() {
     return (
         <div>
-            {projectData.map((project) => {
+            <h1 className="text-center">Projects</h1>
+            {projectData.map((project, idx) => {
                 return (
                     <ProjectCard
                         projectImg={
@@ -15,6 +16,7 @@ export default function Projects() {
                         projectTitle={project.title}
                         projectDescription={project.description}
                         projectUrl={project.url}
+                        reversed={idx % 2 === 0}
                     />
                 );
             })}
