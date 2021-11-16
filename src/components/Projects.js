@@ -1,9 +1,23 @@
 import { Stack } from "react-bootstrap";
+import ProjectCard from "./ProjectCard";
+
+import projectData from "../data/projectsData.json";
 
 export default function Projects() {
     return (
-        <Stack className="d-flex align-items-center">
-            <h2>Projects</h2>
-        </Stack>
+        <div>
+            {projectData.map((project) => {
+                return (
+                    <ProjectCard
+                        projectImg={
+                            require("../assets/" + project.image).default
+                        }
+                        projectTitle={project.title}
+                        projectDescription={project.description}
+                        projectUrl={project.url}
+                    />
+                );
+            })}
+        </div>
     );
 }

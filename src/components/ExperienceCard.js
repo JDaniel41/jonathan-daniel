@@ -11,17 +11,19 @@ export default function ExperienceCard({
 }) {
     return (
         <Col className="d-flex justify-content-center">
-            <Card style={{ height: "400px", width: "500px", minWidth: "0px" }}>
+            <Card style={{ width: "500px", minWidth: "0px" }}>
                 <div
                     style={{ height: "30%", width: "100%" }}
-                    className="text-center"
+                    className="d-flex text-center align-items-center justify-content-center"
                 >
                     <Card.Img
                         variant="top"
                         src={cardLogo}
                         style={{
-                            height: "100%",
+                            height: "auto",
                             width: "auto",
+                            maxWidth: "100%",
+                            maxHeight: "100%",
                         }}
                     />
                 </div>
