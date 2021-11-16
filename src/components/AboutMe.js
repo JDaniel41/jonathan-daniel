@@ -1,5 +1,6 @@
-import { Stack, Image } from "react-bootstrap";
+import { Stack, Image, Button } from "react-bootstrap";
 import headshot from "../img/headshot.jpg";
+import resume from "../assets/JonathanDanielResume.pdf";
 
 export default function AboutMe() {
     return (
@@ -16,18 +17,30 @@ export default function AboutMe() {
                     style={{ height: "200px", width: "200px" }}
                     roundedCircle
                 />
-                <p>
-                    Hello! My name is <b>Jonathan</b> and I am a third-year
-                    Computer Science student at Clemson University. My main
-                    interests are in backend web development and data science.
-                    <br /> <br />
-                    Currently, I conduct ML research through the
-                    Watson-In-The-Watt Creative Inquiry program. My experiences
-                    with the creative inquiry program have allowed me to work
-                    with a variety of ML libraries and frameworks such as
-                    TensorFlow, PyTorch, and Scikit-Learn.
-                    <br />
-                </p>
+
+                <Stack
+                    direction="vertical"
+                    className="d-flex justify-content-center"
+                >
+                    <p>
+                        Hello! My name is <b>Jonathan</b> and I am a third-year
+                        Computer Science student at Clemson University. My main
+                        interests are in backend web development and data
+                        science.
+                        <br /> <br />
+                        Currently, I conduct ML research through the
+                        Watson-In-The-Watt Creative Inquiry program. My
+                        experiences with the creative inquiry program have
+                        allowed me to work with a variety of ML libraries and
+                        frameworks such as TensorFlow, PyTorch, and
+                        Scikit-Learn.
+                        <br />
+                    </p>
+
+                    <Button variant="primary d-block" href={resume}>
+                        Download my Resume
+                    </Button>
+                </Stack>
             </Stack>
         </Stack>
     );

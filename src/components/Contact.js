@@ -1,5 +1,9 @@
-function Projects() {
-    return <div></div>;
-}
+import { Stack } from "react-bootstrap";
 
-export default Projects;
+export default function Projects() {
+    return (
+        <Stack>
+            <h1>Contact Me</h1>
+        </Stack>
+    );
+}
