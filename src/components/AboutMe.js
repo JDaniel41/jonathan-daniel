@@ -37,9 +37,11 @@ export default function AboutMe() {
                         <br />
                     </p>
 
-                    <Button variant="primary d-block" href={resume}>
-                        Download my Resume
-                    </Button>
+                    <div className="d-flex justify-content-center">
+                        <Button variant="primary" href={resume}>
+                            Download my Resume
+                        </Button>
+                    </div>
                 </Stack>
             </Stack>
         </Stack>
