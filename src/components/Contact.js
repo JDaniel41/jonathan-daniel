@@ -1,4 +1,5 @@
 import { Stack, Image, Button } from "react-bootstrap";
+import { SocialIcon } from "react-social-icons";
 import envelope from "../img/envelope.svg";
 
 export default function Contact() {
@@ -16,6 +17,25 @@ export default function Contact() {
                         src={envelope}
                         style={{ height: "100px", width: "100px" }}
                     ></Image>
+                    <Button
+                        className="text-white"
+                        variant="link"
+                        href="mailto:jmdanie@clemson.edu"
+                    >
+                        jmdanie@clemson.edu
+                    </Button>
+                </Stack>
+
+                <Stack
+                    direction="vertical"
+                    className=" d-flex align-items-center"
+                >
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/jonathandaniel23/"
+                        fgColor="#fff"
+                        bgColor="#292b2c"
+                        style={{ height: "100px", width: "100px" }}
+                    />
                     <Button
                         className="text-white"
                         variant="link"

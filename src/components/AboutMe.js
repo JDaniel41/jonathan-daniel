@@ -4,7 +4,7 @@ import resume from "../assets/JonathanDanielResume.pdf";
 
 export default function AboutMe() {
     return (
-        <Stack className="d-flex align-items-center my-5git ad" id="about">
+        <Stack className="d-flex align-items-center my-5" id="about">
             <h1>About Me</h1>
 
             <Stack
