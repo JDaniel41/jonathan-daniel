@@ -1,9 +1,11 @@
+import { Stack } from "react-bootstrap";
+
 export default function Footer() {
     return (
-        <div className="bg-dark m-0">
-            <p className="text-white">
+        <Stack className="bg-dark m-0">
+            <p className="text-white text-center">
                 This was designed and developed by Jonathan Daniel.
             </p>
-        </div>
+        </Stack>
     );
 }
