@@ -5,7 +5,7 @@ import "../styles/hero.css";
 
 export default function Hero() {
     return (
-        <Stack className="vh-100 bg-primary mb-3">
+        <Stack className="vh-100 bg-primary mb-3" id="home">
             <Stack className="d-flex align-items-center justify-content-center">
                 <h1 className="text-white display-1">Jonathan Daniel</h1>
                 <h1 className="text-white">Future Software Engineer</h1>

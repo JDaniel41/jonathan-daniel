@@ -1,11 +1,5 @@
 [
     {
-        "logo": "clemsonLogo.png",
-        "company": "Clemson Energy Visualization and Analytics Center",
-        "position": "CEVAC Intern",
-        "description": "In Spring 20201, I worked for the Clemson Energy Visualization and Analytics Center as a UPIC intern."
-    },
-    {
         "logo": "metaLogo.png",
         "company": "Meta, Inc.",
         "position": "Software Engineering Intern",
@@ -15,6 +9,12 @@
         "logo": "sfLogo.png",
         "company": "State Farm",
         "position": "Technology Intern",
-        "description": "In Summer 2021, I worked for State Farm as a Technology Intern on their Customer Data team. "
+        "description": "In Summer 2021, I worked for State Farm as a Technology Intern on their Customer Data team. As an intern, my main project involved developing dashboards with DynaTrace that could monitor our Spring backend integrator. In addition, I also developed new REST and SOAP endpoints for the integrator. This development also allowed me to gain experience with Karate testing for APIs, as well as proper documentation practices."
+    },
+    {
+        "logo": "clemsonLogo.png",
+        "company": "Clemson Energy Visualization and Analytics Center",
+        "position": "CEVAC Intern",
+        "description": "In Spring 2021, I worked for the Clemson Energy Visualization and Analytics Center as a UPIC intern. As the UPIC intern, I mainly worked on the building occupancy modeling project, where I analyzed data to create ML models that would predict future building occupancies. This internship was mainly research-based, and allowed me to gain experience with libraries such as Facebook Prophet, XGBoost, Scikit-Learn and Pandas. I also was able to practice my SQL skills for data collection."
     }
 ]

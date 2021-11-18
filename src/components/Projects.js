@@ -4,7 +4,7 @@ import projectData from "../data/projectsData.json";
 
 export default function Projects() {
     return (
-        <div>
+        <div id="projects">
             <h1 className="text-center">Projects</h1>
             {projectData.map((project, idx) => {
                 return (
