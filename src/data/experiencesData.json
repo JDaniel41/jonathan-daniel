@@ -3,7 +3,7 @@
         "logo": "metaLogo.png",
         "company": "Meta, Inc.",
         "position": "Software Engineering Intern",
-        "description": "In Fall 2021, I worked for Meta as a Software Engineering Intern on the Android Video Playback team. As an intern, my projects involded tuning values for initial buffering, refactoring a stall monitor in Kotlin used to trigger dynamic rebuffering, and I developed a UI to indicate to users when a live broadcat was interrupted due to poor network connections. I loved the opportunity to experiment and work on new features, as well as the support from my teamates even though they were multiple time zones away."
+        "description": "In Fall 2021, I worked for Meta as a Software Engineering Intern on the Android Video Playback team. As an intern, my projects involded tuning values for initial buffering, refactoring a stall monitor in Kotlin used to trigger dynamic rebuffering, and I developed a UI to indicate to users when a live broadcast was interrupted due to poor network connections. I also implemented improved logging for our video player so we could better triage issues with live streams."
     },
     {
         "logo": "sfLogo.png",
