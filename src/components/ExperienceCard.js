@@ -8,7 +8,7 @@ export default function ExperienceCard({
     cardText,
 }) {
     return (
-        <Col className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center my-2">
             <Card style={{ width: "500px", minWidth: "0px" }}>
                 <div
                     style={{ height: "30%", width: "100%" }}
