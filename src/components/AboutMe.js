@@ -4,19 +4,19 @@ import resume from "../assets/JonathanDanielResume.pdf";
 
 export default function AboutMe() {
     return (
-        <Container id="about">
+        <Container id="about" className="my-5">
             <Row>
                 <Col>
                     <h1 className="text-center">About Me</h1>
                 </Col>
             </Row>
-            <Row xs={1} lg={2} className="justify-content-center my-3">
+            <Row xs={1} sm={1} lg={2} className="justify-content-center my-3">
                 <Col
                     md="auto"
                     lg="auto"
                     xl="auto"
                     xxl="auto"
-                    className="d-flex align-items-center"
+                    className="d-flex align-items-center justify-content-center"
                 >
                     <Image
                         src={headshot}
