@@ -5,7 +5,7 @@ import projectData from "../data/projectsData.json";
 export default function Projects() {
     return (
         <div id="projects">
-            <h1 className="text-center">Projects</h1>
+            <h1 className="text-center my-3">Projects</h1>
             {projectData.map((project, idx) => {
                 return (
                     <ProjectCard
