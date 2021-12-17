@@ -6,7 +6,7 @@ import experienceData from "../data/experiencesData.json";
 
 export default function Experiences() {
     return (
-        <Stack className="d-flex align-items-center" id="experience">
+        <Stack className="d-flex align-items-center" id="experiences">
             <h1>Internship Experiences</h1>
 
             <Row xs={1} lg={3} className="m-3 ">
