@@ -16,6 +16,7 @@ export default function Contact() {
                     <Image
                         src={envelope}
                         style={{ height: "100px", width: "100px" }}
+                        href="mailto:jmdanie@clemson.edu"
                     ></Image>
                     <Button
                         className="text-white"
@@ -39,9 +40,9 @@ export default function Contact() {
                     <Button
                         className="text-white"
                         variant="link"
-                        href="mailto:jmdanie@clemson.edu"
+                        href="https://www.linkedin.com/in/jonathandaniel23/"
                     >
-                        jmdanie@clemson.edu
+                        jonathandaniel23
                     </Button>
                 </Stack>
             </Stack>
