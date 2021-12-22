@@ -31,14 +31,17 @@ export default function AboutMe() {
                             third-year Computer Science student at Clemson
                             University. My main interests are in backend web
                             development and data science. In the past, I have
-                            interned for State Farm and Meta Platforms, Inc.
+                            interned for Meta, State Farm and the Clemson Energy
+                            Visualization and Analytics Center (CEVAC).
                             <br /> <br />
                             Currently, I conduct ML research through the
                             Watson-In-The-Watt Creative Inquiry program. My
-                            experiences with the creative inquiry program have
+                            experiences with the Creative Inquiry program have
                             allowed me to work with a variety of ML libraries
                             and frameworks such as TensorFlow, PyTorch, and
-                            Scikit-Learn.
+                            Scikit-Learn. In addition to the CI, I also conduct
+                            research on Occupancy Modeling through the program's
+                            collaboration with CEVAC.
                             <br /> <br />I am also a member of the Clemson
                             University National Scholars Program and am part of
                             their 10-student 2019 cohort.
