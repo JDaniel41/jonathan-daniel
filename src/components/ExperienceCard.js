@@ -9,7 +9,9 @@ export default function ExperienceCard({
 }) {
     return (
         <Col className="d-flex justify-content-center my-2">
-            <Card style={{ width: "400px", minWidth: "0px" }}>
+            <Card
+                style={{ width: "400px", minWidth: "0px", minHeight: "550px" }}
+            >
                 <div
                     style={{ height: "30%", width: "100%" }}
                     className="d-flex text-center align-items-center justify-content-center"
