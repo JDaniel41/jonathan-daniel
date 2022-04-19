@@ -9,7 +9,7 @@ export default function Projects() {
             {projectData.map((project, idx) => {
                 return (
                     <ProjectCard
-                        projectImg={require("../img/" + project.image).default}
+                        projectImg={require("../img/" + project.image)}
                         projectTitle={project.title}
                         projectDescription={project.description}
                         projectUrl={project.url}

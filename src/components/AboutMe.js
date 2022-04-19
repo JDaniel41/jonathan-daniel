@@ -20,7 +20,7 @@ export default function AboutMe() {
                 >
                     <Image
                         src={headshot}
-                        style={{ height: "200px", width: "200px" }}
+                        style={{ height: "250px", width: "250px" }}
                         roundedCircle
                     />
                 </Col>
@@ -32,7 +32,9 @@ export default function AboutMe() {
                             University. My main interests are in backend web
                             development and data science. In the past, I have
                             interned for Meta, State Farm and the Clemson Energy
-                            Visualization and Analytics Center (CEVAC).
+                            Visualization and Analytics Center (CEVAC). This
+                            Summer, I will be working as a Software Engineering
+                            Intern for Lyft.
                             <br /> <br />
                             Currently, I conduct ML research through the
                             Watson-In-The-Watt Creative Inquiry program. My
@@ -40,8 +42,8 @@ export default function AboutMe() {
                             allowed me to work with a variety of ML libraries
                             and frameworks such as TensorFlow, PyTorch, and
                             Scikit-Learn. In addition to the CI, I also conduct
-                            research on Occupancy Modeling through the program's
-                            collaboration with CEVAC.
+                            research on Occupancy Modeling and Power Forecasting
+                            through the program's collaboration with CEVAC.
                             <br /> <br />I am also a member of the Clemson
                             University National Scholars Program and am part of
                             their 10-student 2019 cohort.

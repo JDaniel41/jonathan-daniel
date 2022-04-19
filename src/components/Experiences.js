@@ -13,9 +13,7 @@ export default function Experiences() {
                 {experienceData.map((experience) => {
                     return (
                         <ExperienceCard
-                            cardLogo={
-                                require("../img/" + experience.logo).default
-                            }
+                            cardLogo={require("../img/" + experience.logo)}
                             cardTitle={experience.company}
                             cardSubtitle={experience.position}
                             cardText={experience.description}
