@@ -1,5 +1,17 @@
 [
     {
+        "logo": "lyftLogo.svg",
+        "company": "Lyft",
+        "position": "Software Engineering Internship",
+        "description": "This Summer, I am currently working for Lyft as a Software Engineering Intern on the Machine Learning platform."
+    },
+    {
+        "logo": "awsLogo.png",
+        "company": "Clemson Capstone Program - AWS",
+        "position": "Software Engineer",
+        "description": "In Spring 2022, I worked on the Clemson University School of Computing Capstone team for Amazon Web Services. The goal of this project was to iterate on the sign in system for the Clemson Makerspace and meet their needs for intuitive data analysis. In addition, we took steps to improve the long-term maintainability of the system. My tasks towards these goals included the development of PyTest unit tests that were automated by GitHub Actions, implementing a localization feature that could track user sign-ins by individual location, altering the DynamoDB table structure to separate out user information and sign-in information, and creating a data migration script that would transfer all existing data from the old table to the new tables."
+    },
+    {
         "logo": "metaLogo.png",
         "company": "Meta",
         "position": "Software Engineering Intern",
@@ -15,6 +27,6 @@
         "logo": "cevacLogo.png",
         "company": "Clemson Energy Visualization and Analytics Center",
         "position": "CEVAC Intern",
-        "description": "In Spring 2021, I worked for the Clemson Energy Visualization and Analytics Center as a UPIC intern. As the UPIC intern, I mainly worked on the building occupancy modeling project, where I analyzed data to create ML models that would predict future building occupancies. This internship was mainly research-based, and allowed me to gain experience with libraries such as Facebook Prophet, XGBoost, Scikit-Learn and Pandas. I also was able to practice my SQL skills for data collection."
+        "description": "In Spring 2021 and Spring 2022, I worked for the Clemson Energy Visualization and Analytics Center as a UPIC intern. As the UPIC intern, I mainly worked on the building occupancy modeling project, where I analyzed data to create ML models that would predict future building occupancies. This internship was mainly research-based, and allowed me to gain experience with libraries such as Facebook Prophet, XGBoost, Scikit-Learn and Pandas. I also was able to practice my SQL skills for data collection."
     }
 ]

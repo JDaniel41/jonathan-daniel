@@ -9,7 +9,7 @@ export default function Experiences() {
         <Stack className="d-flex align-items-center" id="experiences">
             <h1>Internship Experiences</h1>
 
-            <Row sm={1} md={2} lg={2} xl={3} className="m-3 ">
+            <Row sm={1} md={2} lg={2} xl={3} className="m-5">
                 {experienceData.map((experience) => {
                     return (
                         <ExperienceCard
