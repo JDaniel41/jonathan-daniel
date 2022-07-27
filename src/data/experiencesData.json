@@ -2,8 +2,8 @@
     {
         "logo": "lyftLogo.svg",
         "company": "Lyft",
-        "position": "Software Engineering Internship",
-        "description": "This Summer, I am currently working for Lyft as a Software Engineering Intern on the Machine Learning platform."
+        "position": "Software Engineering Intern",
+        "description": "This Summer, I am currently working for Lyft as a Software Engineering Intern on the Machine Learning platform. As an intern, my project entailed creating a set of validation tools for modelers to verify that their models are compatible with LyftLearn Serving. These tools step through the loading, training and inference processes on a modeler's local machine and is compatible with dvelopment in a Jupyter Notebook as well as a traditional Git repository. Over the course of the internship, I consulted my teammates to devise features that would be useful for the modelers to use in their work. This included integrations with AWS S3 buckets, automated reading of model configuration files, and example pytest cases for use in unit testing."
     },
     {
         "logo": "awsLogo.png",
