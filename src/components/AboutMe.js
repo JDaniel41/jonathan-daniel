@@ -28,7 +28,7 @@ export default function AboutMe() {
                     <div>
                         <p>
                             Hello! My name is <b>Jonathan</b> and I am a
-                            third-year Computer Science student at Clemson
+                            fourth-year Computer Science student at Clemson
                             University. My main interests are in backend web
                             development and data science. In the past, I have
                             interned for Meta, State Farm and the Clemson Energy
